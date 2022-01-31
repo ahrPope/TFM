@@ -1,0 +1,48 @@
+{
+    "AgenteCarro": {
+        "checkpoints": [
+            {
+                "steps": 2199997,
+                "file_path": "results\\prueba\\AgenteCarro\\AgenteCarro-2199997.onnx",
+                "reward": 4.4998666826883955,
+                "creation_time": 1622534959.4119148
+            },
+            {
+                "steps": 2299990,
+                "file_path": "results\\prueba\\AgenteCarro\\AgenteCarro-2299990.onnx",
+                "reward": 4.488160006403923,
+                "creation_time": 1622535069.9296014
+            },
+            {
+                "steps": 2399978,
+                "file_path": "results\\prueba\\AgenteCarro\\AgenteCarro-2399978.onnx",
+                "reward": 4.487705917919383,
+                "creation_time": 1622535184.244995
+            },
+            {
+                "steps": 2416419,
+                "file_path": "results\\prueba\\AgenteCarro\\AgenteCarro-2416419.onnx",
+                "reward": 4.464144479897287,
+                "creation_time": 1622535205.0407522
+            },
+            {
+                "steps": 2470157,
+                "file_path": "results\\prueba\\AgenteCarro\\AgenteCarro-2470157.onnx",
+                "reward": 2.1821428324495042,
+                "creation_time": 1622535317.971891
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2470157,
+            "file_path": "results\\prueba\\AgenteCarro.onnx",
+            "reward": 2.1821428324495042,
+            "creation_time": 1622535317.971891
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": "2.4.1"
+    }
+}

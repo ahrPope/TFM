@@ -1,0 +1,75 @@
+{
+    "randomBox": {
+        "lesson_num": 0
+    },
+    "randomCube": {
+        "lesson_num": 0
+    },
+    "grabBoxCurriculum": {
+        "lesson_num": 0
+    },
+    "rewardGrip": {
+        "lesson_num": 0
+    },
+    "rewardReleaseInArea": {
+        "lesson_num": 0
+    },
+    "rewardFinish": {
+        "lesson_num": 0
+    },
+    "rewardCubeKnockedOff": {
+        "lesson_num": 0
+    },
+    "rewardCubeReleased": {
+        "lesson_num": 0
+    },
+    "rewardTime": {
+        "lesson_num": 0
+    },
+    "AgenteRobot": {
+        "checkpoints": [
+            {
+                "steps": 7899997,
+                "file_path": "results\\pruebaRobot\\AgenteRobot\\AgenteRobot-7899997.onnx",
+                "reward": 0.6341283316298996,
+                "creation_time": 1622699357.7836978
+            },
+            {
+                "steps": 7999991,
+                "file_path": "results\\pruebaRobot\\AgenteRobot\\AgenteRobot-7999991.onnx",
+                "reward": 0.6314393232802253,
+                "creation_time": 1622699706.7391605
+            },
+            {
+                "steps": 8028443,
+                "file_path": "results\\pruebaRobot\\AgenteRobot\\AgenteRobot-8028443.onnx",
+                "reward": 0.6307300424653259,
+                "creation_time": 1622699811.7783067
+            },
+            {
+                "steps": 8038062,
+                "file_path": "results\\pruebaRobot\\AgenteRobot\\AgenteRobot-8038062.onnx",
+                "reward": 0.48091537131494655,
+                "creation_time": 1622704794.8711593
+            },
+            {
+                "steps": 8057146,
+                "file_path": "results\\pruebaRobot\\AgenteRobot\\AgenteRobot-8057146.onnx",
+                "reward": 0.5502006774032681,
+                "creation_time": 1622705771.8673446
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8057146,
+            "file_path": "results\\pruebaRobot\\AgenteRobot.onnx",
+            "reward": 0.5502006774032681,
+            "creation_time": 1622705771.8673446
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": "2.4.1"
+    }
+}

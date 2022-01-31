@@ -1,0 +1,238 @@
+behaviors:
+    Agente Robot:
+        trainer_type: ppo
+        hyperparameters: 
+            batch_size: 1024
+            buffer_size: 10240
+            learning_rate: 5.0e-4
+            beta: 5.0e-3
+            epsilon: 0.3
+            lambd: 0.99
+            num_epoch: 3
+            learning_rate_schedule: linear
+        network_settings:
+            normalize: false
+            hidden_units: 128
+            num_layers: 2
+        reward_signals:
+            extrinsic: 
+                strength: 1
+                gamma: 0.99
+            #gail:
+            #    strength: 0.2
+            #    gamma: 0.99
+            #    encoding_size: 128
+            #    learning_rate: 3.0e-4
+            #    use_actions: false
+            #    use_vail: false
+            #    demo_path: Demos/PincherDemoD.demo
+        #behavioral_cloning:
+        #    strength: 0.5
+        #    demo_path: Demos/PincherDemoD.demo
+        max_steps: 20000000
+        time_horizon: 64
+        summary_freq: 20000
+        keep_checkpoints: 5
+        checkpoint_interval: 500000
+        threaded: true
+environment_parameters:
+    # 0 = false, 1 = true
+    randomBox: 0
+    randomCube: 0
+    grabBoxCurriculum: 0
+    # Recompensas de las diferentes acciones
+    rewardGrip: 2
+    rewardReleaseInArea: 1
+    rewardFinish: 4
+    rewardCubeKnockedOff: -1
+    rewardCubeReleased: -1
+    rewardTime: -1
+    
+    CcurriculumGrip: 
+        curriculum:
+            - name: GripLesson0
+              completion_criteria: 
+                measure: reward
+                behavior: TouchCubeMoveGail
+                signal_smoothing: true
+                min_lesson_length: 10000
+                threshold: 1.2
+              value: 0.00
+#            - name: GripLesson1
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.01
+#            - name: GripLesson1
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.02
+#            - name: GripLesson2
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.03
+#            - name: GripLesson3
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.04
+#            - name: GripLesson4
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.05
+#            - name: GripLesson5
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.06
+#            - name: GripLesson6
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.07
+#            - name: GripLesson7
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.08
+#            - name: GripLesson8
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.09
+#            - name: GripLesson9
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.1
+#            - name: GripLesson9
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.11
+#            - name: GripLesson10
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 0.10
+    rotation:
+        curriculum:
+            - name: RotationLesson0
+              completion_criteria: 
+                measure: reward
+                behavior: TouchCubeMoveGail
+                signal_smoothing: true
+                min_lesson_length: 10000
+                threshold: 1.2
+              value: 0          
+#            - name: RotationLesson1
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 10
+#            - name: RotationLesson2
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 20
+#            - name: RotationLesson3
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 30
+#            - name: RotationLesson4
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 40
+#            - name: RotationLesson5
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 50
+#            - name: RotationLesson6
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 60
+#            - name: RotationLesson7
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 70
+#            - name: RotationLesson8
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 80
+#            - name: RotationLesson9
+#              completion_criteria: 
+#                measure: reward
+#                behavior: TouchCubeMoveGail
+#                signal_smoothing: true
+#                min_lesson_length: 10000
+#                threshold: 1.2
+#              value: 90

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1622494978",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ahrPo\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\mlagents-learn EntornoCarro.yaml --run-id=intentoCilindro2",
+        "mlagents_version": "0.23.0",
+        "mlagents_envs_version": "0.23.0",
+        "communication_protocol_version": "1.3.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1622494990"
+    },
+    "total": 12.0420164,
+    "count": 1,
+    "self": 0.019486199999999343,
+    "children": {
+        "run_training.setup": {
+            "total": 0.01163829999999999,
+            "count": 1,
+            "self": 0.01163829999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 12.0108919,
+            "count": 1,
+            "self": 0.0005659000000015624,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.0099893,
+                    "count": 1,
+                    "self": 12.0099893
+                },
+                "trainer_threads": {
+                    "total": 1.4999999997655777e-06,
+                    "count": 1,
+                    "self": 1.4999999997655777e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00033519999999853667,
+                    "count": 1,
+                    "self": 0.00033519999999853667
+                }
+            }
+        }
+    }
+}

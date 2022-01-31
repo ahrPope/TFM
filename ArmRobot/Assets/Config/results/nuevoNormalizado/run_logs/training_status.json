@@ -1,0 +1,75 @@
+{
+    "randomBox": {
+        "lesson_num": 0
+    },
+    "randomCube": {
+        "lesson_num": 0
+    },
+    "grabBoxCurriculum": {
+        "lesson_num": 0
+    },
+    "rewardGrip": {
+        "lesson_num": 0
+    },
+    "rewardReleaseInArea": {
+        "lesson_num": 0
+    },
+    "rewardFinish": {
+        "lesson_num": 0
+    },
+    "rewardCubeKnockedOff": {
+        "lesson_num": 0
+    },
+    "rewardCubeReleased": {
+        "lesson_num": 0
+    },
+    "rewardTime": {
+        "lesson_num": 0
+    },
+    "AgenteCarro": {
+        "checkpoints": [
+            {
+                "steps": 99972,
+                "file_path": "results\\nuevoNormalizado\\AgenteCarro\\AgenteCarro-99972.onnx",
+                "reward": -0.5776220320761204,
+                "creation_time": 1623670220.1807585
+            },
+            {
+                "steps": 199972,
+                "file_path": "results\\nuevoNormalizado\\AgenteCarro\\AgenteCarro-199972.onnx",
+                "reward": -0.3948850123360753,
+                "creation_time": 1623670300.3957398
+            },
+            {
+                "steps": 299972,
+                "file_path": "results\\nuevoNormalizado\\AgenteCarro\\AgenteCarro-299972.onnx",
+                "reward": -0.31977867201219,
+                "creation_time": 1623670379.196431
+            },
+            {
+                "steps": 399972,
+                "file_path": "results\\nuevoNormalizado\\AgenteCarro\\AgenteCarro-399972.onnx",
+                "reward": -0.3643770091757178,
+                "creation_time": 1623670458.6218972
+            },
+            {
+                "steps": 469844,
+                "file_path": "results\\nuevoNormalizado\\AgenteCarro\\AgenteCarro-469844.onnx",
+                "reward": -0.36912256344201716,
+                "creation_time": 1623670515.375887
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 469844,
+            "file_path": "results\\nuevoNormalizado\\AgenteCarro.onnx",
+            "reward": -0.36912256344201716,
+            "creation_time": 1623670515.375887
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": "2.4.1"
+    }
+}

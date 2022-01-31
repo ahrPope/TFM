@@ -1,0 +1,56 @@
+{
+    "RoombaBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 499963,
+                "file_path": "results\\trees\\RoombaBehaviour\\RoombaBehaviour-499963.onnx",
+                "reward": null,
+                "creation_time": 1625479694.3375561,
+                "auxillary_file_paths": [
+                    "results\\trees\\RoombaBehaviour\\RoombaBehaviour-499963.pt"
+                ]
+            },
+            {
+                "steps": 999941,
+                "file_path": "results\\trees\\RoombaBehaviour\\RoombaBehaviour-999941.onnx",
+                "reward": null,
+                "creation_time": 1625480003.98951,
+                "auxillary_file_paths": [
+                    "results\\trees\\RoombaBehaviour\\RoombaBehaviour-999941.pt"
+                ]
+            },
+            {
+                "steps": 1499975,
+                "file_path": "results\\trees\\RoombaBehaviour\\RoombaBehaviour-1499975.onnx",
+                "reward": 2.3888890124443503,
+                "creation_time": 1625480308.0511713,
+                "auxillary_file_paths": [
+                    "results\\trees\\RoombaBehaviour\\RoombaBehaviour-1499975.pt"
+                ]
+            },
+            {
+                "steps": 1556791,
+                "file_path": "results\\trees\\RoombaBehaviour\\RoombaBehaviour-1556791.onnx",
+                "reward": null,
+                "creation_time": 1625480342.0933552,
+                "auxillary_file_paths": [
+                    "results\\trees\\RoombaBehaviour\\RoombaBehaviour-1556791.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1556791,
+            "file_path": "results\\trees\\RoombaBehaviour.onnx",
+            "reward": null,
+            "creation_time": 1625480342.0933552,
+            "auxillary_file_paths": [
+                "results\\trees\\RoombaBehaviour\\RoombaBehaviour-1556791.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.9.0+cu111"
+    }
+}

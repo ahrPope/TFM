@@ -1,0 +1,65 @@
+{
+    "RoombaBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 8999964,
+                "file_path": "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-8999964.onnx",
+                "reward": 4.1875002551823854,
+                "creation_time": 1625486320.0935104,
+                "auxillary_file_paths": [
+                    "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-8999964.pt"
+                ]
+            },
+            {
+                "steps": 9499940,
+                "file_path": "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-9499940.onnx",
+                "reward": null,
+                "creation_time": 1625486623.2724142,
+                "auxillary_file_paths": [
+                    "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-9499940.pt"
+                ]
+            },
+            {
+                "steps": 9999976,
+                "file_path": "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-9999976.onnx",
+                "reward": null,
+                "creation_time": 1625486928.4680462,
+                "auxillary_file_paths": [
+                    "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-9999976.pt"
+                ]
+            },
+            {
+                "steps": 10000040,
+                "file_path": "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-10000040.onnx",
+                "reward": null,
+                "creation_time": 1625486928.5285988,
+                "auxillary_file_paths": [
+                    "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-10000040.pt"
+                ]
+            },
+            {
+                "steps": 10402952,
+                "file_path": "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-10402952.onnx",
+                "reward": null,
+                "creation_time": 1625496349.9038572,
+                "auxillary_file_paths": [
+                    "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-10402952.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10402952,
+            "file_path": "results\\trees2\\RoombaBehaviour.onnx",
+            "reward": null,
+            "creation_time": 1625496349.9038572,
+            "auxillary_file_paths": [
+                "results\\trees2\\RoombaBehaviour\\RoombaBehaviour-10402952.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.9.0+cu111"
+    }
+}

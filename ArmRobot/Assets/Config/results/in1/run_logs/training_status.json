@@ -1,0 +1,75 @@
+{
+    "randomBox": {
+        "lesson_num": 0
+    },
+    "randomCube": {
+        "lesson_num": 0
+    },
+    "grabBoxCurriculum": {
+        "lesson_num": 0
+    },
+    "rewardGrip": {
+        "lesson_num": 0
+    },
+    "rewardReleaseInArea": {
+        "lesson_num": 0
+    },
+    "rewardFinish": {
+        "lesson_num": 0
+    },
+    "rewardCubeKnockedOff": {
+        "lesson_num": 0
+    },
+    "rewardCubeReleased": {
+        "lesson_num": 0
+    },
+    "rewardTime": {
+        "lesson_num": 0
+    },
+    "AgenteCarro": {
+        "checkpoints": [
+            {
+                "steps": 4299936,
+                "file_path": "results\\in1\\AgenteCarro\\AgenteCarro-4299936.onnx",
+                "reward": 4.31366482935156,
+                "creation_time": 1623688645.7344344
+            },
+            {
+                "steps": 4399938,
+                "file_path": "results\\in1\\AgenteCarro\\AgenteCarro-4399938.onnx",
+                "reward": 4.237373603388386,
+                "creation_time": 1623688735.4924603
+            },
+            {
+                "steps": 4499969,
+                "file_path": "results\\in1\\AgenteCarro\\AgenteCarro-4499969.onnx",
+                "reward": 4.154793322988324,
+                "creation_time": 1623688825.4664025
+            },
+            {
+                "steps": 4599992,
+                "file_path": "results\\in1\\AgenteCarro\\AgenteCarro-4599992.onnx",
+                "reward": 4.142570888352337,
+                "creation_time": 1623688914.9570844
+            },
+            {
+                "steps": 4699518,
+                "file_path": "results\\in1\\AgenteCarro\\AgenteCarro-4699518.onnx",
+                "reward": 4.144258016072214,
+                "creation_time": 1623689072.4638464
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4699518,
+            "file_path": "results\\in1\\AgenteCarro.onnx",
+            "reward": 4.144258016072214,
+            "creation_time": 1623689072.4638464
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": "2.4.1"
+    }
+}

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 13d8b33871148ec4f935cd8664ca4582
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tree: {fileID: 7106475104585563728, guid: d0540a66e665f984eab241d84c8a9963, type: 3}
+  - bench: {fileID: 7190407247491102455, guid: ed1dfd226a8bf2f418f812b254707036, type: 3}
+  - pavement: {fileID: 3132809142200642073, guid: 2294ac72b60f4da46974d1f746b56439, type: 3}
+  - l: {fileID: 3132809142200642073, guid: 2294ac72b60f4da46974d1f746b56439, type: 3}
+  - roomba: {fileID: 7428673436310715651, guid: e05bba7c0e2915547a7a4756e431428a, type: 3}
+  - waste: {fileID: 9211520072619081503, guid: 7e69f2718b3451c49a25c401603863ba, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

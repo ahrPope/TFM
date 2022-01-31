@@ -1,0 +1,98 @@
+{
+    "randomBox": {
+        "lesson_num": 0
+    },
+    "randomCube": {
+        "lesson_num": 0
+    },
+    "grabBoxCurriculum": {
+        "lesson_num": 0
+    },
+    "rewardGrip": {
+        "lesson_num": 0
+    },
+    "rewardReleaseInArea": {
+        "lesson_num": 0
+    },
+    "rewardFinish": {
+        "lesson_num": 0
+    },
+    "rewardCubeKnockedOff": {
+        "lesson_num": 0
+    },
+    "rewardCubeReleased": {
+        "lesson_num": 0
+    },
+    "rewardTime": {
+        "lesson_num": 0
+    },
+    "curriculumGrip": {
+        "lesson_num": 0
+    },
+    "rotation": {
+        "lesson_num": 0
+    },
+    "TouchCubeMoveGail": {
+        "checkpoints": [
+            {
+                "steps": 1999989,
+                "file_path": "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-1999989.onnx",
+                "reward": 0.6114970898673997,
+                "creation_time": 1641162878.973116,
+                "auxillary_file_paths": [
+                    "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-1999989.pt"
+                ]
+            },
+            {
+                "steps": 2142701,
+                "file_path": "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2142701.onnx",
+                "reward": 1.1399330673083452,
+                "creation_time": 1641163115.3120656,
+                "auxillary_file_paths": [
+                    "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2142701.pt"
+                ]
+            },
+            {
+                "steps": 2348484,
+                "file_path": "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2348484.onnx",
+                "reward": 1.6982926653652657,
+                "creation_time": 1641163502.5805106,
+                "auxillary_file_paths": [
+                    "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2348484.pt"
+                ]
+            },
+            {
+                "steps": 2499989,
+                "file_path": "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2499989.onnx",
+                "reward": 4.548383064337332,
+                "creation_time": 1641163802.150829,
+                "auxillary_file_paths": [
+                    "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2499989.pt"
+                ]
+            },
+            {
+                "steps": 2793149,
+                "file_path": "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2793149.onnx",
+                "reward": 5.5655151415562285,
+                "creation_time": 1641164317.1525724,
+                "auxillary_file_paths": [
+                    "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2793149.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2793149,
+            "file_path": "results\\TFM-Test\\TouchCubeMoveGail.onnx",
+            "reward": 5.5655151415562285,
+            "creation_time": 1641164317.1525724,
+            "auxillary_file_paths": [
+                "results\\TFM-Test\\TouchCubeMoveGail\\TouchCubeMoveGail-2793149.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.9.0+cu111"
+    }
+}

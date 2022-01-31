@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1624440755",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ahrPo\\Documents\\GitHub\\UDAI-rl\\Roomba\\venv\\Scripts\\mlagents-learn",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cu111",
+        "numpy_version": "1.21.0",
+        "end_time_seconds": "1624440793"
+    },
+    "total": 38.2199398,
+    "count": 1,
+    "self": 0.002860800000000552,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1394051999999999,
+            "count": 1,
+            "self": 0.1394051999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 38.0776738,
+            "count": 1,
+            "self": 0.00029689999999504835,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 38.077366,
+                    "count": 1,
+                    "self": 38.077366
+                },
+                "trainer_threads": {
+                    "total": 9.000000034120603e-07,
+                    "count": 1,
+                    "self": 9.000000034120603e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.0000000003174137e-05,
+                    "count": 1,
+                    "self": 1.0000000003174137e-05
+                }
+            }
+        }
+    }
+}

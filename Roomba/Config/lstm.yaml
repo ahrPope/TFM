@@ -1,0 +1,29 @@
+behaviors:
+    RoombaBehaviour:
+        trainer_type: ppo
+        hyperparameters: 
+            batch_size: 1024
+            buffer_size: 10240
+            learning_rate: 5.0e-4
+            beta: 5.0e-3
+            epsilon: 0.6
+            lambd: 0.95
+            num_epoch: 3
+            learning_rate_schedule: linear
+        network_settings:
+            normalize: false
+            hidden_units: 128
+            num_layers: 2
+            memory:
+                memory_size: 128
+                sequence_length: 64
+        reward_signals:
+            extrinsic: 
+                strength: 1
+                gamma: 0.99
+        max_steps: 15000000
+        time_horizon: 64
+        summary_freq: 40000
+        keep_checkpoints: 5
+        checkpoint_interval: 500000
+        threaded: true

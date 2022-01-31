@@ -1,0 +1,48 @@
+{
+    "AgenteCarro": {
+        "checkpoints": [
+            {
+                "steps": 1899968,
+                "file_path": "results\\intento2\\AgenteCarro\\AgenteCarro-1899968.onnx",
+                "reward": null,
+                "creation_time": 1622486242.6828194
+            },
+            {
+                "steps": 1999992,
+                "file_path": "results\\intento2\\AgenteCarro\\AgenteCarro-1999992.onnx",
+                "reward": 0.0,
+                "creation_time": 1622486319.419534
+            },
+            {
+                "steps": 2074240,
+                "file_path": "results\\intento2\\AgenteCarro\\AgenteCarro-2074240.onnx",
+                "reward": null,
+                "creation_time": 1622486377.2504983
+            },
+            {
+                "steps": 2099968,
+                "file_path": "results\\intento2\\AgenteCarro\\AgenteCarro-2099968.onnx",
+                "reward": null,
+                "creation_time": 1622486463.2207131
+            },
+            {
+                "steps": 2127360,
+                "file_path": "results\\intento2\\AgenteCarro\\AgenteCarro-2127360.onnx",
+                "reward": 0.0,
+                "creation_time": 1622486487.48819
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2127360,
+            "file_path": "results\\intento2\\AgenteCarro.onnx",
+            "reward": 0.0,
+            "creation_time": 1622486487.48819
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": "2.4.1"
+    }
+}

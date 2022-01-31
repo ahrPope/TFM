@@ -1,0 +1,57 @@
+{
+    "randomBox": {
+        "lesson_num": 0
+    },
+    "randomCube": {
+        "lesson_num": 0
+    },
+    "grabBoxCurriculum": {
+        "lesson_num": 0
+    },
+    "rewardGrip": {
+        "lesson_num": 0
+    },
+    "rewardReleaseInArea": {
+        "lesson_num": 0
+    },
+    "rewardFinish": {
+        "lesson_num": 0
+    },
+    "rewardCubeKnockedOff": {
+        "lesson_num": 0
+    },
+    "rewardCubeReleased": {
+        "lesson_num": 0
+    },
+    "rewardTime": {
+        "lesson_num": 0
+    },
+    "AgenteRobot": {
+        "checkpoints": [
+            {
+                "steps": 99969,
+                "file_path": "results\\normalizadoA\\AgenteRobot\\AgenteRobot-99969.onnx",
+                "reward": -1.259863850911076,
+                "creation_time": 1623094610.970463
+            },
+            {
+                "steps": 192423,
+                "file_path": "results\\normalizadoA\\AgenteRobot\\AgenteRobot-192423.onnx",
+                "reward": -1.260904852538717,
+                "creation_time": 1623095084.6718628
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 192423,
+            "file_path": "results\\normalizadoA\\AgenteRobot.onnx",
+            "reward": -1.260904852538717,
+            "creation_time": 1623095084.6718628
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": "2.4.1"
+    }
+}

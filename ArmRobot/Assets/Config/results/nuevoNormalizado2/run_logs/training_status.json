@@ -1,0 +1,75 @@
+{
+    "randomBox": {
+        "lesson_num": 0
+    },
+    "randomCube": {
+        "lesson_num": 0
+    },
+    "grabBoxCurriculum": {
+        "lesson_num": 0
+    },
+    "rewardGrip": {
+        "lesson_num": 0
+    },
+    "rewardReleaseInArea": {
+        "lesson_num": 0
+    },
+    "rewardFinish": {
+        "lesson_num": 0
+    },
+    "rewardCubeKnockedOff": {
+        "lesson_num": 0
+    },
+    "rewardCubeReleased": {
+        "lesson_num": 0
+    },
+    "rewardTime": {
+        "lesson_num": 0
+    },
+    "AgenteCarro": {
+        "checkpoints": [
+            {
+                "steps": 1699964,
+                "file_path": "results\\nuevoNormalizado2\\AgenteCarro\\AgenteCarro-1699964.onnx",
+                "reward": -0.9475892106454288,
+                "creation_time": 1623673569.2769349
+            },
+            {
+                "steps": 1799942,
+                "file_path": "results\\nuevoNormalizado2\\AgenteCarro\\AgenteCarro-1799942.onnx",
+                "reward": -0.9443285677079112,
+                "creation_time": 1623673657.7626534
+            },
+            {
+                "steps": 1899999,
+                "file_path": "results\\nuevoNormalizado2\\AgenteCarro\\AgenteCarro-1899999.onnx",
+                "reward": -0.9435174010528459,
+                "creation_time": 1623673746.9040828
+            },
+            {
+                "steps": 1999959,
+                "file_path": "results\\nuevoNormalizado2\\AgenteCarro\\AgenteCarro-1999959.onnx",
+                "reward": -0.9430982677578926,
+                "creation_time": 1623673834.6691172
+            },
+            {
+                "steps": 2000023,
+                "file_path": "results\\nuevoNormalizado2\\AgenteCarro\\AgenteCarro-2000023.onnx",
+                "reward": -0.9430982677578926,
+                "creation_time": 1623673836.9075606
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000023,
+            "file_path": "results\\nuevoNormalizado2\\AgenteCarro.onnx",
+            "reward": -0.9430982677578926,
+            "creation_time": 1623673836.9075606
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": "2.4.1"
+    }
+}

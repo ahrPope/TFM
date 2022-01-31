@@ -1,0 +1,92 @@
+{
+    "randomBox": {
+        "lesson_num": 0
+    },
+    "randomCube": {
+        "lesson_num": 0
+    },
+    "grabBoxCurriculum": {
+        "lesson_num": 0
+    },
+    "rewardGrip": {
+        "lesson_num": 0
+    },
+    "rewardReleaseInArea": {
+        "lesson_num": 0
+    },
+    "rewardFinish": {
+        "lesson_num": 0
+    },
+    "rewardCubeKnockedOff": {
+        "lesson_num": 0
+    },
+    "rewardCubeReleased": {
+        "lesson_num": 0
+    },
+    "rewardTime": {
+        "lesson_num": 0
+    },
+    "AgenteCarro": {
+        "checkpoints": [
+            {
+                "steps": 3199983,
+                "file_path": "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3199983.onnx",
+                "reward": 3.4827500013634562,
+                "creation_time": 1643135408.5663586,
+                "auxillary_file_paths": [
+                    "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3199983.pt"
+                ]
+            },
+            {
+                "steps": 3299961,
+                "file_path": "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3299961.onnx",
+                "reward": 3.781283344266315,
+                "creation_time": 1643135461.2339253,
+                "auxillary_file_paths": [
+                    "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3299961.pt"
+                ]
+            },
+            {
+                "steps": 3399982,
+                "file_path": "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3399982.onnx",
+                "reward": 3.5841458248905838,
+                "creation_time": 1643135514.8138335,
+                "auxillary_file_paths": [
+                    "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3399982.pt"
+                ]
+            },
+            {
+                "steps": 3499956,
+                "file_path": "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3499956.onnx",
+                "reward": 3.892250008881092,
+                "creation_time": 1643135566.0465784,
+                "auxillary_file_paths": [
+                    "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3499956.pt"
+                ]
+            },
+            {
+                "steps": 3538943,
+                "file_path": "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3538943.onnx",
+                "reward": null,
+                "creation_time": 1643135587.2381194,
+                "auxillary_file_paths": [
+                    "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3538943.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3538943,
+            "file_path": "results\\TFM-Carro-2\\AgenteCarro.onnx",
+            "reward": null,
+            "creation_time": 1643135587.2381194,
+            "auxillary_file_paths": [
+                "results\\TFM-Carro-2\\AgenteCarro\\AgenteCarro-3538943.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.9.0+cu111"
+    }
+}
